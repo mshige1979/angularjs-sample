@@ -26,8 +26,6 @@
                 redirectTo: '/'
             });
 
-            ;
-
         }
     );
 
@@ -36,10 +34,6 @@
     });
 
     // controller
-    app.controller('MainController', ['$scope', function($scope){
-
-    }]);
-
     function MainController($scope){
         $scope.data = "aaaaaaaa";
     }
